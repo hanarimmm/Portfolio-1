@@ -1,15 +1,35 @@
+<!DOCTYPE html>
 <html>
+<head>
+<style>
+div.background {
+  background: url(klematis.jpg) repeat;
+  border: 2px solid black;
+}
 
-<style> 
-body {
-        Background-image: url("https://s-media-cache-ak0.pinimg.com/736x/7c/87/b7/7c87b75254a01870ba65c280defd5883--beach-background-background-hd-wallpaper.jpg")
- </style>
- 
- 
- 
- <body>
-<center><font color="white"><h1 style="font-family:impact;"><h1 style="font-size:300%;">HANA RIM</h1></h1></font></center>
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
 
-<img src="http://www.topvinylfilms.com/images/products/thumbs/fsg17.jpg" alt="Hana Rim" style="width:200px;height:100px;">
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+</style>
+</head>
+<body>
+
+<div class="background">
+  <div class="transbox">
+    <p>This is some text that is placed in the transparent box.</p>
+  </div>
+</div>
+
 </body>
 </html>
+
